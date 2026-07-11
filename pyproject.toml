@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tuebingen-search-tool"
+version = "0.1.0"
+description = "Modern Search Engines group project starter: crawler, BM25 index, reranker, UI, batch output"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "joblib>=1.3",
+    "streamlit>=1.30",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
