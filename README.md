@@ -224,3 +224,18 @@ Before submission, you should:
 - write tests for BM25
 - check that `data/results.tsv` has exactly 100 results per query where possible
 - freeze a final branch after the deadline
+
+
+
+## Coding Convention
+### Docstring
+We are using the Google Docstring format.
+
+Consider augmenting functions, especially the important ones, with short and informative
+Docstrings.
+
+### Type annotations
+Each function should be annotated with the types of its arguments and the return type.
+This helps code readability, catching some mistakes early and supporting the development.
+
+APIs must be documented including type annotations and docstrings.
